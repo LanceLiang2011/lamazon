@@ -28,7 +28,7 @@ module.exports = {
 
           error: "#fc3b65",
           body: {
-            "background-color": "#ebecf4",
+            "background-color": "#e3e6e6",
           },
         },
       },
