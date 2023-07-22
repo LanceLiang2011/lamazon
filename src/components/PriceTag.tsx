@@ -7,7 +7,5 @@ interface PriceTagProps {
 }
 
 export default function PriceTag({ price, className }: PriceTagProps) {
-  return (
-    <span className={clsx("badge", className)}>${formatPrice(price)}</span>
-  );
+  return <span className={clsx("badge", className)}>{formatPrice(price)}</span>;
 }

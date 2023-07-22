@@ -6,7 +6,7 @@ export type CartWithProducts = Prisma.CartGetPayload<{
   include: { items: { include: { product: true } } };
 }>;
 
-interface ShoppingCart extends CartWithProducts {
+export interface ShoppingCart extends CartWithProducts {
   size: number;
   subtotal: number;
 }
