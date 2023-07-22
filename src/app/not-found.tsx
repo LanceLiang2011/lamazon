@@ -1,14 +1,12 @@
-"use client";
-
 import Link from "next/link";
 
-export default function ErrorPage() {
+export default function NotFoundPage() {
   return (
-    <>
-      <div>Something went wrong. Please refresh the page.</div>
+    <div>
+      <div className="mb-3 text-3xl"> Page not found. </div>
       <Link className="btn btn-error" href={`/`}>
         Send me home
       </Link>{" "}
-    </>
+    </div>
   );
 }
